@@ -4,7 +4,8 @@
   "description": "Dummy app to test CI developments",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --exit  './test/*.spec.js'"
+    "test": "mocha --exit  './test/*.spec.js'",
+    "build": "mkdir -p dist/ && uglifyjs *.js -m -o dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "uglify-js": "^3.4.9"
   }
 }

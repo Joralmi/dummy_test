@@ -1,8 +1,8 @@
-const express = require("express");
+var express = require("express");
 
-let app = express();
+var app = express();
 
-app.get("/", function(req, res){
+app.get("/", function (req, res) {
   res.json({message: "Your dummy test works!"});
 });
 
