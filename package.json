@@ -1,0 +1,32 @@
+{
+  "name": "dummy_test",
+  "version": "1.0.0",
+  "description": "Dummy app to test CI developments",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha './test/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joralmi/dummy_test.git"
+  },
+  "keywords": [
+    "dummy",
+    "CI",
+    "tests"
+  ],
+  "author": "Jorge Almela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joralmi/dummy_test/issues"
+  },
+  "homepage": "https://github.com/Joralmi/dummy_test#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
