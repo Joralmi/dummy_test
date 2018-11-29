@@ -4,7 +4,7 @@
   "description": "Dummy app to test CI developments",
   "main": "app.js",
   "scripts": {
-    "test": "mocha './test/*.spec.js'"
+    "test": "mocha --exit  './test/*.spec.js'"
   },
   "repository": {
     "type": "git",
