@@ -17,7 +17,7 @@ function getMsg(done){
       res.body.should.be.a('object');
       res.body.should.have.property("message");
       res.body.message.should.be.a("string");
-      res.body.message.should.equal('Your dummy test works!');
+      res.body.message.should.equal('Your dummy test DONT works!');
       done();
     });
 }
